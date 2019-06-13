@@ -1,0 +1,21 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "scripts": {
+    "lingui:extract": "lingui extract --clean",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@lingui/cli": "2.8.3",
+    "@lingui/loader": "2.8.3",
+    "@lingui/macro": "2.8.3",
+    "@lingui/react": "2.8.3",
+    "babel-plugin-macros": "2.6.1",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "license": "ISC"
+}
